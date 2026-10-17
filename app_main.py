@@ -270,6 +270,7 @@ PAGE = r"""<!doctype html>
   <label class="drop" id="drop">
     <strong>Choose a photo or PDF</strong>
     <span>JPG, PNG, WEBP or PDF, up to 12 MB</span>
+    <input type="file" id="file" accept="image/*,application/pdf">
     <input type="file" id="file" accept="image/*" capture="environment">
     <div id="fileName"></div>
   </label>
